@@ -1,5 +1,9 @@
 function granthamdistance($aa1,$aa2)
 	{
+	//Make amino acids upper case
+	$aa1 = strtoupper($aa1);
+	$aa2 = strtoupper($aa2);
+
 	//Create variable with both amino acids in alphabetical order
 	$aadifference = array($aa1,$aa2);
 	sort($aadifference);
